@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="myStyles.css" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-aimages/1.jpeg://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <style rel="stylesheet">
 
 
@@ -230,20 +231,20 @@
 <script>
   
   $(function() {
-  $(".box").on("mousedown", function(e) {
-    const gate = $(this).children("div");
-    $(this).children(".locker").hide();
-    for (var i = 0; i < gate.length; i++) {
-      if ($(gate[i]).hasClass("ovrl-left")) {
-        $(gate[i]).toggleClass("move-right");
+    $(".box").on("mousedown", function(e) {
+      const gate = $(this).children("div");
+      $(this).children(".locker").hide();
+      for (var i = 0; i < gate.length; i++) {
+        if ($(gate[i]).hasClass("ovrl-left")) {
+          $(gate[i]).toggleClass("move-right");
+        }
+        if ($(gate[i]).hasClass("ovrl-right")) {
+          $(gate[i]).toggleClass("move-left");
+        }
       }
-      if ($(gate[i]).hasClass("ovrl-right")) {
-        $(gate[i]).toggleClass("move-left");
-      }
-    }
-    // removes the click event after reveling the image
-    $(this).off();
+      // removes the click event after reveling the image
+      $(this).off();
+    });
   });
-});
- 
+   
 </script>
