@@ -1,0 +1,7 @@
+@media (max-width:760px) {
+  #bannerimg{
+    display:none;
+  }
+  #home{
+    padding-bottom: 50px;
+  }
