@@ -1,0 +1,4 @@
+[1120/210033.012:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1120/210033.017:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1120/210033.017:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1120/210033.020:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
