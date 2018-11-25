@@ -10,6 +10,22 @@
     color:#d0d0d0 !important;
   }
 
-.modal-btn{
-  
+.modal-btn {
+  border-radius: 0px !important;
+  background:-webkit-linear-gradient(0deg, #834162 0%, #1f284f 100%);
+  color:white;
+  box-shadow: 0 0 0 #006599;
+  transition-duration: 2s;
+}
+
+.modal-btn:hover{
+	background:-webkit-linear-gradient(0deg,#1f284f 0%, #834162 100%);
+}
+
+.modal-btn:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+.accordion-content ul {
+	list-style-type: circle !important;
 }

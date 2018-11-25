@@ -2468,64 +2468,127 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.home-about-area {
+.home-about-area1 {
   background-color: #f9f9ff
 }
 
-.home-about-area:after {
+.home-about-area1:after {
   position: absolute;
   content: "";
   top: 0;
   right: 0;
-  width: 48%;
+  width: 50%;
   height: 100%;
-  background: url(../img/about-img.jpg) no-repeat center center/cover;
+  background: url(../img/about1.jpg) no-repeat center center/cover;
   z-index: 1
 }
 
 @media (max-width: 991px) {
-  .home-about-area:after {
+  .home-about-area1:after {
     display: none
   }
 }
 
 @media (max-width: 991px) {
-  .home-about-area .justify-content-end {
+  .home-about-area1 .justify-content-end {
     justify-content: flex-start !important
   }
 }
 
-.home-about-area h1 {
+.home-about-area1 h1 {
   margin-bottom: 20px
 }
 
-.home-about-area .home-about-right {
+.home-about-area1 .home-about-right {
   max-width: 580px;
   padding-right: 36px
 }
 
 @media (max-width: 1024px) {
-  .home-about-area .home-about-right {
+  .home-about-area1 .home-about-right {
     padding-left: 15px
   }
 }
 
-.home-about-area .single-services {
+.home-about-area1 .single-services {
   margin-top: 10px
 }
 
-.home-about-area .single-services h4 {
+.home-about-area1 .single-services h4 {
   margin: 20px 0
 }
 
-.home-about-area .single-services .lnr {
+.home-about-area1 .single-services .lnr {
   margin-top: 30px;
   font-size: 30px;
   color: #988fff
 }
 
 @media (max-width: 414px) {
-  .home-about-area .single-services p {
+  .home-about-area1 .single-services p {
+    font-size: 12px;
+    width: 88%
+  }
+}
+
+.home-about-area2 {
+  background-color: #f9f9ff
+}
+
+.home-about-area2:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: url(../img/about2.jpg) no-repeat center center/cover;
+  z-index: 1
+}
+
+@media (max-width: 991px) {
+  .home-about-area2:after {
+    display: none
+  }
+}
+
+@media (max-width: 991px) {
+  .home-about-area2 .justify-content-end {
+    justify-content: flex-start !important
+  }
+}
+
+.home-about-area2 h1 {
+  margin-bottom: 20px
+}
+
+.home-about-area2 .home-about-right {
+  max-width: 580px;
+  padding-right: 36px
+}
+
+@media (max-width: 1024px) {
+  .home-about-area2 .home-about-right {
+    padding-left: 15px
+  }
+}
+
+.home-about-area2 .single-services {
+  margin-top: 10px
+}
+
+.home-about-area2 .single-services h4 {
+  margin: 20px 0
+}
+
+.home-about-area2 .single-services .lnr {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #988fff
+}
+
+@media (max-width: 414px) {
+  .home-about-area2 .single-services p {
     font-size: 12px;
     width: 88%
   }
