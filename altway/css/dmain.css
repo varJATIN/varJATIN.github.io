@@ -29,3 +29,20 @@
 .accordion-content ul {
 	list-style-type: circle !important;
 }
+
+.altway-letter img {
+	position:absolute;
+	z-index:2;
+	height:200px;
+	width:200px;
+	top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Half the height */
+    margin-left: -100px; /* Half the width */
+}
+
+@media (max-width: 991px) {
+  .altway-letter img {
+    display: none
+  }
+}
