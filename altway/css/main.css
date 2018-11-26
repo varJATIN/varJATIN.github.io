@@ -2595,7 +2595,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .discount-section-area {
-  background: url(../img/discount-bg.jpg) center;
+  background-image: -moz-linear-gradient(0deg, #834162 0%, #1f284f 100%);
+  background-image: -webkit-linear-gradient(0deg, #834162 0%, #1f284f 100%);
+  background-image: -ms-linear-gradient(0deg, #834162 0%, #1f284f 100%)
   background-size: cover
 }
 
