@@ -331,10 +331,6 @@
 	padding-bottom: 50px;
 }
 
-#faq-main ul{
-	position:fixed;
-}
-
 #faq-main li{
 	padding: 10px;
 }
@@ -346,6 +342,12 @@
 }
 
 .faq-type-trigger-div{
-	height:1000px;
-	background: red;
+	height:100vh;
 }
+
+/*#faq-row{
+  background: url(../img/data-bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/

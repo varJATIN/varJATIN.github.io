@@ -13,3 +13,4 @@ $('.active-brand-carusel').owlCarousel({
     items:3,
     navText : ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<i class="fa fa-arrow-right" aria-hidden="true"></i>']
 });
+

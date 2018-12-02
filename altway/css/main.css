@@ -41,7 +41,9 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
-  position: relative
+  position: relative;
+  margin:0px;
+  padding:0px;
 }
 
 ol, ul {
