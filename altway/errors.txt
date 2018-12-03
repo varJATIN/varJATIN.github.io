@@ -1,0 +1,1 @@
+faq.html: horizontal scroll bar is creating problem bootstrap grid sum may be the problem

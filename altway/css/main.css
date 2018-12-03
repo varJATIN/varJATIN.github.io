@@ -2485,6 +2485,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1
 }
 
+.tarea:after {
+  background: url(../img/dmapimage.png) no-repeat center center/cover;
+  
+}
+
 @media (max-width: 991px) {
   .home-about-area1:after {
     display: none
