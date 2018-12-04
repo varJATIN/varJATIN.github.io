@@ -360,10 +360,10 @@
 }
 
 .info-box {
-  background: red;
+  background: white;
   width:40%;
 }
-.info-box h1 {
+.info-box h3 {
   background: url(../img/abhi.jpg);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
