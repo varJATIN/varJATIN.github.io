@@ -11,6 +11,9 @@ $('.active-brand-carusel').owlCarousel({
     loop:true,
     margin:10,
     items:3,
-    navText : ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<i class="fa fa-arrow-right" aria-hidden="true"></i>']
+    autoplay:true,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
 });
 

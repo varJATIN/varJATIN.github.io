@@ -352,7 +352,10 @@
   background-repeat: no-repeat;
 }
 .our-team-container{
+  background: url("../img/team-bg.png");
   padding:20px;
+  padding-top:60px;
+  padding-bottom: 60px;
 }
 .background-img {
   background: url(../img/abhi.jpg);
@@ -360,11 +363,52 @@
 }
 
 .info-box {
-  background: white;
-  width:40%;
+ background: linear-gradient(90deg,#fff,#ffffff36);
+  padding:20px;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: all 2s;
+}
+.info-box p {
+  color:#000;
 }
 .info-box h3 {
   background: url(../img/abhi.jpg);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: 900;
+  font-family: Arial;
+}
+.info-box h5 {
+  color:red;
+}
+
+.info-box:hover {
+  background: #3bd46b;
+  padding:40px;
+  margin:-20px;
+  transition-delay: 1000 ms;
+}
+
+@media (max-width: 1325px) {
+  .data-bg  {
+    display: none
+  }
+}
+
+@media (max-width: 715px) {
+  .our-team-container div {padding:10px}
+
+  .info-box:hover {
+  background: #3bd46b;
+  padding:20px;
+  margin:-10px;
+    }
+}
+
+.team-heading h1 {
+  color:white;
+  font-weight:600;
+  font-size:355%;
+  font-family:serif;
+  
 }
