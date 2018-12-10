@@ -345,10 +345,10 @@
 	height:100vh;
 }
 
-#faq-row{
+#faq-main{
   background: url(../img/data-bg.png);
   background-attachment: fixed;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .our-team-container{
@@ -411,4 +411,35 @@
   font-size:355%;
   font-family:serif;
   
+}
+.home-about-area1  {
+  position:sticky;
+  width:100%;
+  top:0;
+  z-index: -1000;
+}
+
+.home-about-area2  {
+  position:sticky;
+  width:100%;
+  top:0;
+  z-index: -1000;
+}
+.data-bg {
+  background: url('../img/data-bg.png');
+}
+.brands-area {
+  background: url('../img/data-bg.png');
+}
+
+.work-process-area {
+  background: url('../img/data-bg.png');
+}
+
+.faq-area {
+  background: url('../img/data-bg.png');
+}
+
+.blog-area {
+  background: url('../img/data-bg.png');
 }

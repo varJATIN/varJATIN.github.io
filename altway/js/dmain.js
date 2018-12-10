@@ -17,3 +17,13 @@ $('.active-brand-carusel').owlCarousel({
     autoplayHoverPause: true,
 });
 
+$('.active-testimonial-carusel').owlCarousel({
+    loop:true,
+    margin:10,
+    items:3,
+    autoplay:true,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+     navText : ['','']
+});

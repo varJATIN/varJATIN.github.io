@@ -22,3 +22,7 @@
 [1206/213013.901:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
 [1206/213013.901:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
 [1206/213013.901:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1210/012621.539:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1210/012621.539:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1210/012621.539:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+[1210/012621.539:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
