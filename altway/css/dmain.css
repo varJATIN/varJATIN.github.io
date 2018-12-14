@@ -366,7 +366,7 @@
  background: linear-gradient(90deg,#fff,#ffffff36);
   padding:20px;
   -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-  transition: all 2s;
+  transition: all 1s ease-in-out;
 }
 .info-box p {
   color:#000;
