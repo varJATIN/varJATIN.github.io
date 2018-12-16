@@ -774,6 +774,9 @@ ul.year li:nth-child(4){
 ul.year li:nth-child(5){
 	    margin-top: 112px;
 }
+ul.year li:nth-child(6){
+	    margin-top: 105px;
+}
 .timeline-badge.success i {
     font-size: 0.9em;
 }
@@ -1964,4 +1967,82 @@ span.border.two:after {
 }
 .contact-grid1-left{
 	height:148px
+}
+.timeline li:nth-child(1)::before {
+	content: "2018";
+	position:absolute;
+	width:200px;
+	background:#ccc;
+	margin-top: 15px;
+	margin-left:-350px;
+	font-size:150%;
+	font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
+}
+.timeline li:nth-child(2)::before {
+	content: "2017";
+	position:absolute;
+	width:200px;
+	background:#ccc;
+	margin-top: 15px;
+	margin-left:-350px;
+	font-size:150%;
+		font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
+}
+.timeline li:nth-child(3)::before {
+	content: "2016";
+	position:absolute;
+	width:200px;
+	background:#ccc;
+	margin-top: 15px;
+	margin-left:-350px;
+	font-size:150%;
+		font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
+}
+.timeline li:nth-child(4)::before {
+	content: "2015";
+	position:absolute;
+	width:200px;
+	background:#ccc;
+	margin-top: 15px;
+	margin-left:-350px;
+	font-size:150%;
+		font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
+}
+.timeline li:nth-child(5)::before {
+	content: "2014";
+	position:absolute;
+	width:200px;
+	background:#ccc;
+	margin-top: 15px;
+	margin-left:-350px;
+	font-size:150%;
+		font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
+}
+.timeline li:nth-child(6)::before {
+	content: "2013";
+	position:absolute;
+	width:200px;
+	background:#ccc;
+	margin-top: 15px;
+	margin-left:-350px;
+	font-size:150%;
+		font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding:10px;
 }
