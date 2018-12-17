@@ -5,6 +5,10 @@
       font-size:28px;
       color:#fff;
     }
+    #particles-js{
+      height:100vh !important;
+      width:100vw;
+    }
     .content__container__text{
       position:fixed;
       top:50%;
