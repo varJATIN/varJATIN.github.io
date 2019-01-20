@@ -8,6 +8,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
     background: #FFf;
+    overflow-x: hidden;
 }
 body a{
   transition:0.5s all;
@@ -21,8 +22,9 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: #fff;
+    background: #fff url(../images/banner4.png);
     background-size: cover;
+    background-position: top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,6 +62,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 .navigation-right ul li a{
   color:#000;
+  font-weight: 600;
     font-size:1em;
     text-decoration: none;
     padding: 10px 0;
@@ -1150,7 +1153,7 @@ span.border.two:after {
 }
 /*-- footer --*/
 .footer {
-    background: url(../images/contact.jpeg) no-repeat center top;
+    background: url(../images/contact.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1203,10 +1206,10 @@ span.border.two:after {
   background: url("../images/movetop.png") no-repeat 0px 0px;
 }
 #toTopHover {
-  width: 32px;
-  height: 32px;
-  display: block;
-  overflow: hidden;
+  /* width: 32px; */
+  /* height: 32px; */
+  /* display: block; */
+  /* overflow: hidden; */
   float: right;
   opacity: 0;
   -moz-opacity: 0;
@@ -2049,7 +2052,6 @@ span.border.two:after {
 .gallary {
   background:#787676;
   height:500px;
-  width:100vw;
   
 }
 .gallary-div {
@@ -2075,6 +2077,7 @@ span.border.two:after {
 }
 .gallary-div div:nth-child(2) {
   background:url('../images/gallary1.jpg');
+    transition:all 0.2s ease-in;
    -webkit-filter: blur(5px);
    -moz-filter: blur(5px);
     -o-filter: blur(5px);
@@ -2103,7 +2106,7 @@ span.border.two:after {
 
 }
 .gallary-img:hover:before {
-  content:"gxfcghjk";
+  content:"";
   background:#76afe205;
 }
 .gallary-div div:nth-child(3) {
@@ -2127,7 +2130,6 @@ span.border.two:after {
   margin-top:125px;
   z-index:10;
   transform:rotate3d(0,0,10,90deg);
-  transition:all 0.5s ease-out;
    -webkit-filter: blur(0px);
    -moz-filter: blur(0px);
     -o-filter: blur(0px);
@@ -2135,7 +2137,47 @@ span.border.two:after {
     filter: blur(0px);
 /*  width:500px; */
 }
+@media screen and (max-width: 400px) {
+    #gmap_canvas {
+      height:100%;
+      max-width:400px;
+      margin-left: -100px;
+      }
+    .gallary-div {
+    position:absolute;
+    left:calc(-100% + 250px);
+       }
+  .gallary-img {
+    position:absolute;
+    cursor:pointer;
+    background:aliceblue;
+    height:100px;
+    margin-top:190px;
+    width:450px;
+    transform:rotate3d(0,8,-10,270deg);
+    border-radius:5px;
+  }
+     .gallary-div div:nth-child(1) {
+  left:-50px;
+}
+    .gallary-div div:nth-child(2) {
+  left:0px;
+}
+  .gallary-div div:nth-child(3) {
+  left:50px;
+}
+.gallary-div div:nth-child(4) {
+  left:100px;
+}
+.gallary-div div:nth-child(5) {
+  left:150px;
+}
+.gallary-div div:nth-child(6) {
+  left:200px;
+}
+#toTop {
 
-.gallary-div div:nth-child(2):active:after {
- content:"asdfghjkl"; 
+  margin-right:40px;
+}
+
 }
